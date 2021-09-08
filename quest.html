@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minha Aposentadoria</title>
+
+        <!-- Fontes -->
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Allura&family=Archivo:wght@400;900&family=Varela+Round&display=swap" rel="stylesheet">
+        <!--CSS & Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Icons -->
+        <script src="https://kit.fontawesome.com/01281ef8b9.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body id="questionario">
+                <!--Menu-->
+        <section id="menu">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#titulo"><h1 class="brand-title">Maria Aparecida</h1></a>
+                    <button class="navbar-toggler collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- Formulario -->
+
+        <section id="form">
+            <div id="title-sec">
+            <h1 id="quest-heading">Questionário</h1>
+            <h3 id="quest-heading">Atendimento à distância</h3>
+            <h3 id="quest-heading">Advogada Maria Aparecida Claudino Silva – OAB-MG 166.192</h3>
+            </div>
+            <br>
+        <div class="container">
+            <form class="formulario" action="https://getform.io/f/4f7b4d26-c899-48e6-a38c-f30a8b3b7fe4" method="POST">
+                <div class="cd-form">
+                    <label for="question" class="form-label">Seu nome:</label>
+                    <input type="text" class="form-control" id="question" placeholder="Nome Completo" name="Nome Completo"> <br>
+                </div>
+                <div class="cd-form">
+                    <label for="question" class="form-label">Estado Civil:</label>
+                    <input type="text" class="form-control" id="question" size="30" placeholder="Estado Civil" name="Estado Civil"> <br>
+                </div>
+                <div class="cd-form">
+                    <label for="question" class="form-label">Data de Nascimento:</label>
+                    <input type="date" class="form-control" id="question" name="Data de Nascimento"> <br>
+                </div>
+                <div class="cd-form">
+                    <label for="question" class="form-label">Nome da Mãe:</label>
+                    <input type="text" class="form-control" id="question" size="30" placeholder="Nome da Mãe" name="Nome Mãe"> <br>
+                </div>
+                <div class="cd-form">
+                    <label for="question" class="form-label">Local de Residência:</label>
+                    <input type="text" class="form-control" id="question" size="40" placeholder="endereço" name="Endereço"> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Escolaridade:</label> <br>
+                <select name="escolaridade" id="escolaridade" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="fundamental Inc.">Fundamental Incompleto</option>
+                    <option value="fundamental Com.">Fundamental Completo</option>
+                    <option value="medio Inc.">Médio Incompleto</option>
+                    <option value="medio Com.">Médio Completo</option>
+                    <option value="superior Inc.">Superior Incompleto</option>
+                    <option value="superior Com.">Superior Completo</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question" class="form-label">Seu PIS:</label>
+                <input type="text" class="form-control" id="question" size="30" placeholder="xxx.xxxxx.xx-x" name="PIS"> <br>
+                </div>
+                <div class="cd-form">                
+                <label for="question" class="form-label">Seu CPF:</label>
+                <input type="text" class="form-control" id="question" size="30" placeholder="xxx.xxx.xxx-xx" name="CPF"> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question" class="form-label">Carteira de Identidade</label>
+                <input type="text" class="form-control" id="question" size="30" placeholder="xx.xxx.xxx" name="ID"> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question" class="form-label">Possui o CNIS recente?</label> <br>
+                <select name="cnis" id="cnis" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Possui cadastro no "Meu INSS"?</label> <br>
+                <select name="inss" id="inss" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Tem a senha para entrar na Plataforma?</label> <br>
+                <select name="senha" id="senha" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Telefone ou Whatsapp:</label>
+                <input type="text" class="form-control" id="question" size="20" placeholder="(xx)xxxxx-xxxx"> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question" class="form-label">Seu E-mail:</label>
+                <input type="email" class="form-control" id="question" size="40" name="email"> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Trabalha como Empregado (a) com carteira Assinada?</label> <br>
+                <select name="carteira" id="catAssinada" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Trabalha na área Rural, ou já Trabalhou?</label> <br>
+                <select name="trabalho rural" id="traRural" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Trabalha ou já trabalhou como professor de Educação infantil, fundamental ou ensino médio?</label> <br>
+                <select name="professor" id="prof" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Já trabalhou ou trabalha no Serviço Público: União, Estado ou Município?</label> <br>
+                <select name="servidor publico" id="serPub" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Trabalha ou já Trabalhou em atividade prejudicial à Saúde?</label> <br>
+                <select name="atv. saude" id="saude" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Possui documentos que comprovam esta atividade, quais? PPP ou outros:</label> <br>
+                <select name="possui deficiencia" id="def" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                <input type="text" name="docs" id="docs" class="form-control" size="30" placeholder="Quais documentos">
+                </div> <br>
+                <div class="cd-form">
+                <label for="question">Possui algum Benefício no INSS, por exemplo Auxílio Incapacidade Temporária (Auxílio doença) ou outro?</label> <br>
+                <select name="possui beneficio" id="def" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Já é aposentado?</label> <br>
+                <select name="aposentado" id="def" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                <label for="question">A aposentadoria foi suspensa?</label> <br>
+                <select name="apose. suspensa" id="def" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Quer solicitar Auxílio Maternidade?</label> <br>
+                <select name="aux. Maternidade" id="def" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Quer solicitar Pensão por Morte?</label> <br>
+                <select name="pensao morte" id="def" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Pediu um benefício no INSS e ele foi indeferido?</label> <br>
+                <select name="inss indeferido" id="def" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Recebeu Uma Carta do INSS, solicitando documentos, ou teve o seu benefício suspenso?</label> <br>
+                <select name="beneficio suspenso" id="def" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Recolhe para o INSS como Contribuinte Individual, Autônomo?</label> <br>
+                <select name="autonomo" id="def" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div class="cd-form">
+                <label for="question">Contribui com o INSS como Contribuinte Facultativo?</label> <br>
+                <select name="contribuinte facul." id="def" class="form-control selector">
+                    <option value="" aria-placeholder=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select> <br>
+                </div>
+                <div>
+                    <label for="servico">Qual serviço você precisa?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="Análise do CNIS" id="flexRadioDefault2" unchecked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Análise do seu CNIS
+                        </label> <br>
+                        <input class="form-check-input" type="checkbox" name="Acerto CNIS" id="flexRadioDefault2" unchecked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Acerto de CNIS
+                        </label> <br>
+                        <input class="form-check-input" type="checkbox" name="Planejamento" id="flexRadioDefault2" unchecked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Planejamento Previdenciário
+                        </label> <br>
+                        <input class="form-check-input" type="checkbox" name="Ja contribuiu e não sabe do Direito" id="flexRadioDefault2" unchecked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Você já contribuiu de várias maneiras. Parou e agora não sabe se terá direito
+                        </label> <br>
+                        <input class="form-check-input" type="checkbox" name="Ja tem aposentadoria" id="flexRadioDefault2" unchecked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Você já tem direito de pedir sua aposentadoria, e quer fazer, mas precisa de ajuda profissional
+                        </label> <br>
+                        <label for=""> <input class="form-check-input" type="checkbox" name="Outro" id="flexRadioDefault2" unchecked> Outro, Qual?</label>
+                        <div class="cd-form">
+                        <input type="text" class="form-control" name="" id="" size="30">
+                        </div>    
+                    </div>
+                    <br>
+                        <div class="cd-form">
+                            <label for="question">Possui documentos? Carteira de Trabalho, Rescisão de contrato, Extrato de FGTS, Carnês de contribuição ao INSS, Documentos de produtor rural, Guias de Recolhimento para o INSS, CTC – Certidão de Tempo de Contribuição etc…</label> <br>
+                            <select name="def" id="def" class="form-control selector">
+                                <option value="" aria-placeholder=""></option>
+                                <option value="sim">Sim</option>
+                                <option value="nao">Não</option>
+                            </select> <br>
+                        </div>
+                </div>
+                <button class="btn btn-outline-warning btn-lg">Enviar</button>
+            </form>
+            <br>
+            <div>
+            <p id="observacao">Obs. Todas as informações acima deverão ser comprovadas com documentos no momento oportuno. <br>
+                A princípio vamos ver os documentos digitalizados ou fotos. <br>
+                Quando da prestação dos serviços, teremos que ver documentos originais, ou autenticados. <br>
+            </p>
+            <p id="observacao">
+                A senha do Meu INSS, quando solicitada, será somente para verificar a situação do segurado no INSS. Somente solicitaremos, <br> após a assinatura do Contrato Advocatício, bem como quando for legamente procurador do segurado <br> para serviços exclusivamente prevideciários, através de Procuração Especifica para o INSS.
+            </p>
+            <p id="observacao">
+                Após o recebimento de todas as informações, poderemos agendar um atendimento  à distância (dia e hora pré estabelecidos).
+            </p>
+            </div>
+        </section>
+        <section>
+            <div class="redes">
+                <h3 class="rede-heading">Minhas Redes</h3>
+                <a href="https://www.instagram.com/aparecidaclaudino.advprev/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/ap.claudino"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="footer">
+                <h4>Made by BrunoSilva</h4>
+            </div>
+        </section>
+    
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+</html>

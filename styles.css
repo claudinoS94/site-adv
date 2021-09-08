@@ -1,0 +1,188 @@
+body {
+    background-color: #4a4d50;
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+            /* Menu */
+.brand-title {
+    margin: 0 20px 0 20px;
+    color: #FFD523;
+    font-family: 'Allura', cursive;
+    font-size: 1.5rem;
+}
+.nav-item {
+    padding: 0 50px 0 50px;
+}
+nav .navbar-nav li a{
+    color: #FFD523 !important;
+    font-family: 'Zilla Slab', serif;
+}
+            /* Titulo */
+#titulo {
+    background-color: rgb(233, 233, 233);
+    padding-top: 10px;
+}
+h1 {
+    color: #636464;
+    font-family: 'Zilla Slab', serif;
+    font-size: 3.5rem;
+    margin: 100px 0 50px 0;
+}
+h2 {
+    color: #fff;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2rem;
+    padding: 50px 0 25px 0;
+}
+h3 {
+    color: #525252;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+    word-spacing: 2;
+}
+h4 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 0.5rem;
+    color: #4a4d50;
+}
+.profile-pic {
+    width: 25%;
+    padding-bottom: 50px;
+}
+
+            /* Previdenca*/
+
+#seguridade {
+    height: 600px;
+    background-color: #525252;
+}
+.prev-text {
+    color: #fff;
+    padding-bottom: 25px;
+}
+p {
+    color: #fff;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 20px;
+    align-content: center;
+    padding: 0 50px;
+}
+            /* Beneficio */
+#beneficios {
+    background-color: rgb(233, 233, 233);
+    height: 600px;
+}
+.bene-heading {
+    color: #4a4d50;
+}
+.lista-bene {
+    list-style: none;
+    padding: 0 50px 10px 50px;
+}
+#beneficios-p {
+    color: #4a4d50;
+}
+
+            /* Atendimento */
+#atendimento { 
+    height: 350px;
+    background-color: #4a4d50;
+}
+.atend-heading {
+    padding: 80px 0 20px 0;
+    color: #fff;
+}
+.paragrafo-atend {
+    font-size: 1rem;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.button {
+    margin-bottom: 50px;
+}
+
+
+            /* Perguntas */
+#perguntas {
+    height: 400px;
+    background-color: rgb(233, 233, 233);
+}
+.perg-heading {
+    padding: 50px 0 50px 0;
+    color: #4a4d50;
+}
+.carousel-inner {
+    margin: auto;
+    width: 80%;
+}
+.carousel-item {
+    padding-bottom: 50px;
+}
+.carousel-paragrafo {
+    color: #4a4d50;
+}
+.btn-carousel {
+    margin: 0 5px 25px 0;
+}
+            /* Autor */
+#autor {
+    height: 500px;
+    background-color: #4a4d50;
+}
+.lista-especializacao {
+    color: #fff;
+    list-style: none;
+}
+
+            /* Redes */
+.redes {
+    padding-bottom: 20px;
+    background-color: rgb(233, 233, 233);
+}
+.rede-heading {
+    color: #4a4d50;
+    padding-top: 20px;
+}
+i {
+    padding: 0 20px 0 20px;
+}
+
+            /* Footer */
+.footer {
+    height: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+            /* Formulario */
+#form {
+    padding-bottom: 50px;
+}
+#title-sec {
+    background-color: rgb(233, 233, 233);
+    font-family: 'Zilla Slab', serif;
+    padding: 20px 0 70px 0;
+    color: #4a4d50;
+}
+#quest-heading {
+    color: #4a4d50;
+}
+.cd-form {
+    margin: 5px 15%;
+    text-align: left;
+}
+label {
+    color: #fff;
+    font-family:  'Varela Round', sans-serif;
+}
+.selector {
+    width: 50%;
+}
+#observacao {
+    color: #fff;
+    text-align: center;
+}
+        /* BSdev */
+.page-const {
+    color: #fff;
+}
